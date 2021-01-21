@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1>Photo Gallery</h1>
+    <!--The below code is to seperate the h1 and the rest of the body.-->
+    <label>--------------</label>
+    <section class="Grid_Gallery">
+        <h2>Grid Gallery</h2>
+        <div class="Photo_Grid">
+            <span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/330px-Mercury_in_color_-_Prockter07-edit1.jpg">
+                <img src="https://api.time.com/wp-content/uploads/2020/09/Venus.jpg?w=800&quality=85">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/330px-The_Earth_seen_from_Apollo_17.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/330px-OSIRIS_Mars_true_color.jpg">
+
+            </span>
+            <br>
+            <span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/330px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/450px-Saturn_during_Equinox.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/330px-Uranus2.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/330px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg">
+            </span>
+        </div>
+
+    </section>
+    <section class="Slide_Gallery">
+        <h2>Slide Gallery</h2>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <!--Mercury-->
+                <div class="item active">
+                    <center>
+                        <p>Mercury</p>
+                        <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/330px-Mercury_in_color_-_Prockter07-edit1.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                        </div>
+                    </center>
+                </div>
+                <!--Venus-->
+                <div class="item">
+                    <center>
+                        <p>Venus</p>
+                        <a href="https://en.wikipedia.org/wiki/Venus" target="_blank">
+                            <img src="https://api.time.com/wp-content/uploads/2020/09/Venus.jpg?w=800&quality=85" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Earth-->
+                <div class="item">
+                    <center>
+                        <p>Earth</p>
+                        <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/330px-The_Earth_seen_from_Apollo_17.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Mars-->
+                <div class="item">
+                    <center>
+                        <p>Mars</p>
+                        <a href="https://en.wikipedia.org/wiki/Mars" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/330px-OSIRIS_Mars_true_color.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Jupiter-->
+                <div class="item">
+                    <center>
+                        <p>Jupiter</p>
+                        <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/330px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Saturn-->
+                <div class="item">
+                    <center>
+                        <p>Saturn</p>
+                        <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/450px-Saturn_during_Equinox.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Uranus-->
+                <div class="item">
+                    <center>
+                        <p>Uranus</p>
+                        <a href="https://en.wikipedia.org/wiki/Uranus" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/330px-Uranus2.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Neptune-->
+                <div class="item">
+                    <center>
+                        <p>Neptune</p>
+                        <a href="https://en.wikipedia.org/wiki/Neptune" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/330px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+
+                        </div>
+                    </center>
+                </div>
+                <!--Carousel indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="1"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="2"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="3"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="4"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="5"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="6"></li>
+                    <li data-taregt="#myCarousel" data-slide-to="7"></li>
+                </ol>
+
+
+
+                <!--Carousel Control-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body></html>
